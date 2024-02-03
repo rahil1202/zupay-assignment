@@ -14,8 +14,6 @@ The primary objectives of this project were to showcase proficiency in FastAPI, 
 - **MongoDB:** A NoSQL database used for storing blog data.
 - **Docker:** Containerization for easy deployment and scalability.
 
-## API Endpoints
-
 ### Authentication
 
 - **Register new users**
@@ -37,22 +35,7 @@ The primary objectives of this project were to showcase proficiency in FastAPI, 
 - **Implement sorting logic to prioritize blogs with tags the user likes**
 - **Implement pagination**
 
-## Deployment
 
-The API is Dockerized for easy deployment. It has been deployed to [render.com](https://render.com/) for testing and evaluation.
-
-- **Deployment URL:** [API on render.com](https://your-api-render-url.com)
-
-## Brownie Points Achieved
-
-- **Testing:** Unit and integration tests for API endpoints have been implemented.
-- **Dockerization:** A Dockerfile is provided to containerize the API.
-
-## Bonus Points
-
-- **Additional Features:** (List any additional features implemented beyond core requirements)
-- **Advanced FastAPI Features:** (Describe any exploration of advanced FastAPI features, e.g., background tasks, dependency injection)
-- **Security and Performance Optimization:** (Highlight any best practices applied for security and performance optimization)
 
 ## Project Structure
 
@@ -60,34 +43,6 @@ The API is Dockerized for easy deployment. It has been deployed to [render.com](
 - **`tests/`:** Houses unit and integration tests.
 - **`docker/`:** Docker-related files, including the Dockerfile.
 
-## Getting Started
-
-To run the project locally, follow these steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/your-repository.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd your-repository
-   ```
-
-3. Build and run the Docker container:
-
-   ```bash
-   docker build -t fastapi-blog-api .
-   docker run -p 8000:8000 fastapi-blog-api
-   ```
-
-4. Access the API at `http://localhost:8000`.
-
-## Contribution Guidelines
-
-If you'd like to contribute to the project, please follow the contribution guidelines outlined in the `CONTRIBUTING.md` file.
 
 ## Additional Notes
 
