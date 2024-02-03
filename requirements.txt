@@ -1,0 +1,12 @@
+fastapi
+passlib[bcrypt]
+pydantic
+pydantic-mongo
+pymongo
+python-slugify
+python-jose[cryptography]
+python-multipart
+
+# server
+
+uvicorn
